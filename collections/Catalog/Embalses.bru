@@ -1,0 +1,15 @@
+meta {
+  name: Embalses
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{API_BASE_URL}}/catalog?componentType=embassament
+  body: none
+  auth: inherit
+}
+
+params:query {
+  componentType: embassament
+}

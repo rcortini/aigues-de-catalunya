@@ -1,0 +1,15 @@
+meta {
+  name: Aforos
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{API_BASE_URL}}/catalog?componentType=aforament
+  body: none
+  auth: inherit
+}
+
+params:query {
+  componentType: aforament
+}

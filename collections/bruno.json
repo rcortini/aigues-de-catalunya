@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ACA",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

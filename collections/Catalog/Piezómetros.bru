@@ -1,0 +1,15 @@
+meta {
+  name: Piezómetros
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{API_BASE_URL}}/catalog?componentType=piezometre
+  body: none
+  auth: inherit
+}
+
+params:query {
+  componentType: piezometre
+}
